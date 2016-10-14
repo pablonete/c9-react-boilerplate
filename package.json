@@ -1,13 +1,13 @@
 {
-  "name": "react-intro-workshop",
+  "name": "fabric-react-boilerplate",
   "private": "true",
   "version": "1.0.0",
-  "description": "Workspace for the Intro to React.js workshop",
+  "description": "Playground to FabricReact in C9.",
   "scripts": {
     "start": "$(npm root)/.bin/webpack-dev-server --progress --inline --hot",
     "shrinkwrap": "npm shrinkwrap --dev"
   },
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "author": "Pablo Nuñez <pablonete@gmail.com> (http://github.com/pablonete)",
   "license": "CC0-1.0",
   "devDependencies": {
     "babel-core": "6.4.5",
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "normalize.css": "3.0.3",
+    "office-ui-fabric-react": "0.58.0",
     "react": "0.14.6",
     "react-dom": "0.14.6"
   }
